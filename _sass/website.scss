@@ -1,0 +1,74 @@
+$bgcolour:#f7847c;
+$headingfont:'Abril Fatface';
+$paragraphfont:'Playfair Display';
+
+body
+{h1,h2,h3{font-family:$headingfont, gill sans mt;}
+header h4{font-family:$headingfont;font-weight:300}
+p{font-family:$paragraphfont;font-size:18px;}}
+table td, ul, ol{font-family:$paragraphfont; font-weight:600;}
+table th{font-family:$headingfont;}
+footer
+{padding:20px;
+color:white;
+background-color:black;
+font-weight:800;}
+header
+{@extend footer;
+text-align:center;
+a{color:#ffdc7a;}
+a:hover{color:#fab900;text-decoration:none;}}
+.container
+{padding:20px;
+color:black;
+text-size:20px;
+}
+.containercentre
+{@extend .container;
+text-align:center;
+font-family:$paragraphfont;
+}
+.centre
+{  
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:40%;
+}
+#page{font-weight:900;color:yellow;}
+.containerleft
+{@extend .container;
+margin-right:40%;
+background-color:white;
+}
+.flexcontainer
+{@extend .container;
+display:flex;
+flex-wrap:wrap;
+background-color:white;
+margin:10px;
+}
+.kadhai{flex:55%;padding:10px;padding-right:35px;}
+.moonji{flex:45%;margin-top:60px;}
+.col
+{padding:10px;}
+.row>div{padding:10px;border:2px solid black;background-color:white;border-collapse:collapse;}
+
+
+table td
+{font-size:20px;border: 2px solid black;padding:5px;background-color:white;}
+
+a{color:white;}
+th{@extend td; font-size:20px;}
+@media screen and (max-width:700px)
+{.centre{width:100%}
+.flexcontainer
+{align-content:center;}
+.flexcontainer .kadhai
+  {display:flex;
+  flex-direction:column; 
+  }
+.flexcontainer .moonji
+{display:flex;flex-direction:column;padding:none;
+img{width:425px;height:auto;margin-left:auto;margin-right:auto;}}
+h1,h2,h3,h4,p{text-align:center;}}

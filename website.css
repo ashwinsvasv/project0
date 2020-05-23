@@ -1,0 +1,171 @@
+/* line 6, C:/Users/intel/project0/_sass/website.scss */
+body h1, body h2, body h3 {
+  font-family: "Abril Fatface", gill sans mt;
+}
+
+/* line 7, C:/Users/intel/project0/_sass/website.scss */
+body header h4 {
+  font-family: "Abril Fatface";
+  font-weight: 300;
+}
+
+/* line 8, C:/Users/intel/project0/_sass/website.scss */
+body p {
+  font-family: "Playfair Display";
+  font-size: 18px;
+}
+
+/* line 9, C:/Users/intel/project0/_sass/website.scss */
+table td, table th, ul, ol {
+  font-family: "Playfair Display";
+  font-weight: 600;
+}
+
+/* line 10, C:/Users/intel/project0/_sass/website.scss */
+table th {
+  font-family: "Abril Fatface";
+}
+
+/* line 11, C:/Users/intel/project0/_sass/website.scss */
+footer, header {
+  padding: 20px;
+  color: white;
+  background-color: black;
+  font-weight: 800;
+}
+
+/* line 16, C:/Users/intel/project0/_sass/website.scss */
+header {
+  text-align: center;
+}
+
+/* line 19, C:/Users/intel/project0/_sass/website.scss */
+header a {
+  color: #ffdc7a;
+}
+
+/* line 20, C:/Users/intel/project0/_sass/website.scss */
+header a:hover {
+  color: #fab900;
+  text-decoration: none;
+}
+
+/* line 21, C:/Users/intel/project0/_sass/website.scss */
+.container, .containercentre, .containerleft, .flexcontainer {
+  padding: 20px;
+  color: black;
+  text-size: 20px;
+}
+
+/* line 26, C:/Users/intel/project0/_sass/website.scss */
+.containercentre {
+  text-align: center;
+  font-family: "Playfair Display";
+}
+
+/* line 31, C:/Users/intel/project0/_sass/website.scss */
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/* line 38, C:/Users/intel/project0/_sass/website.scss */
+#page {
+  font-weight: 900;
+  color: yellow;
+}
+
+/* line 39, C:/Users/intel/project0/_sass/website.scss */
+.containerleft {
+  margin-right: 40%;
+  background-color: white;
+}
+
+/* line 44, C:/Users/intel/project0/_sass/website.scss */
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin: 10px;
+}
+
+/* line 51, C:/Users/intel/project0/_sass/website.scss */
+.kadhai {
+  flex: 55%;
+  padding: 10px;
+  padding-right: 35px;
+}
+
+/* line 52, C:/Users/intel/project0/_sass/website.scss */
+.moonji {
+  flex: 45%;
+  margin-top: 60px;
+}
+
+/* line 53, C:/Users/intel/project0/_sass/website.scss */
+.col {
+  padding: 10px;
+}
+
+/* line 55, C:/Users/intel/project0/_sass/website.scss */
+.row > div {
+  padding: 10px;
+  border: 2px solid black;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+/* line 58, C:/Users/intel/project0/_sass/website.scss */
+table td, table th {
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: white;
+}
+
+/* line 61, C:/Users/intel/project0/_sass/website.scss */
+a {
+  color: white;
+}
+
+/* line 62, C:/Users/intel/project0/_sass/website.scss */
+th {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  /* line 64, C:/Users/intel/project0/_sass/website.scss */
+  .centre {
+    width: 100%;
+  }
+  /* line 65, C:/Users/intel/project0/_sass/website.scss */
+  .flexcontainer {
+    align-content: center;
+  }
+  /* line 67, C:/Users/intel/project0/_sass/website.scss */
+  .flexcontainer .kadhai {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 71, C:/Users/intel/project0/_sass/website.scss */
+  .flexcontainer .moonji {
+    display: flex;
+    flex-direction: column;
+    padding: none;
+  }
+  /* line 73, C:/Users/intel/project0/_sass/website.scss */
+  .flexcontainer .moonji img {
+    width: 425px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 74, C:/Users/intel/project0/_sass/website.scss */
+  h1, h2, h3, h4, p {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=website.css.map */
