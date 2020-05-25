@@ -136,33 +136,37 @@ th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 64, C:/Users/intel/project0/_sass/website.scss */
+  /* line 65, C:/Users/intel/project0/_sass/website.scss */
   .centre {
     width: 100%;
   }
-  /* line 65, C:/Users/intel/project0/_sass/website.scss */
+  /* line 66, C:/Users/intel/project0/_sass/website.scss */
+  p {
+    text-size: 10px;
+  }
+  /* line 67, C:/Users/intel/project0/_sass/website.scss */
   .flexcontainer {
     align-content: center;
   }
-  /* line 67, C:/Users/intel/project0/_sass/website.scss */
+  /* line 69, C:/Users/intel/project0/_sass/website.scss */
   .flexcontainer .kadhai {
     display: flex;
     flex-direction: column;
   }
-  /* line 71, C:/Users/intel/project0/_sass/website.scss */
+  /* line 73, C:/Users/intel/project0/_sass/website.scss */
   .flexcontainer .moonji {
     display: flex;
     flex-direction: column;
     padding: none;
   }
-  /* line 73, C:/Users/intel/project0/_sass/website.scss */
+  /* line 75, C:/Users/intel/project0/_sass/website.scss */
   .flexcontainer .moonji img {
     width: 425px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 74, C:/Users/intel/project0/_sass/website.scss */
+  /* line 76, C:/Users/intel/project0/_sass/website.scss */
   h1, h2, h3, h4, p {
     text-align: center;
   }

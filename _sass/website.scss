@@ -60,8 +60,10 @@ table td
 
 a{color:white;}
 th{@extend td; font-size:20px;}
+
 @media screen and (max-width:700px)
 {.centre{width:100%}
+p{text-size:10px;}
 .flexcontainer
 {align-content:center;}
 .flexcontainer .kadhai
