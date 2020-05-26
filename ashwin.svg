@@ -21,16 +21,16 @@
      id="defs2" />
   <sodipodi:namedview
      id="base"
-     pagecolor="#181818"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="261.01278"
-     inkscape:cy="56.307362"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="327.0316"
+     inkscape:cy="113.86533"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -54,6 +54,18 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <rect
+       style="opacity:1;fill:#171717;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.36500001;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect878"
+       width="168.91434"
+       height="88.733482"
+       x="-13.898015"
+       y="-20.582451" />
+  </g>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
